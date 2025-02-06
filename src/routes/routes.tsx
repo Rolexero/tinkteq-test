@@ -4,11 +4,12 @@ import Dashboard from "@/views/root/dashboard";
 
 const routes: RouteObject[] = [
   {
-    path: "/", // Base path for auth routes
-    element: <RootLayout />, // Wrap auth routes with AuthLayout
+    path: "/",
+    element: <RootLayout />,
     children: [
       {
-        path: "dashboard", // Nested route for sign-in
+        index: true,
+        path: "dashboard",
         element: <Dashboard />,
       },
     ],
