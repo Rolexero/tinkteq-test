@@ -25,7 +25,7 @@ const SidebarMenu: React.FC<SidebarMenuProps> = ({
       title: "Dashboard",
       key: "Dashboard",
       // TODO use path variable
-      url: "/user/dashboard",
+      url: "/dashboard",
       icon: <DashboardSquare01Icon size={20} color={"#fff"} />,
     },
 
